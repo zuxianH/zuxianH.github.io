@@ -2,14 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://superposition71.github.io/2020/12/13/why%20just%20physics/</loc>
-    
-    <lastmod>2020-12-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://superposition71.github.io/about/index.html</loc>
+    <loc>https://superposition71.github.io/2020/12/13/My%20first%20blog%20and%20why/</loc>
     
     <lastmod>2020-12-13</lastmod>
     
@@ -23,7 +16,21 @@
   </url>
   
   <url>
-    <loc>https://superposition71.github.io/2020/12/13/My%20first%20blog%20and%20why/</loc>
+    <loc>https://superposition71.github.io/2020/12/13/Endimentionell%20analys/</loc>
+    
+    <lastmod>2020-12-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/13/why%20just%20physics/</loc>
+    
+    <lastmod>2020-12-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/about/index.html</loc>
     
     <lastmod>2020-12-13</lastmod>
     
@@ -53,7 +60,7 @@
   </url>
   
   <url>
-    <loc>https://superposition71.github.io/tags/life/</loc>
+    <loc>https://superposition71.github.io/tags/physics/</loc>
     <lastmod>2020-12-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -62,14 +69,7 @@
 
   
   <url>
-    <loc>https://superposition71.github.io/categories/why-many-why/</loc>
-    <lastmod>2020-12-13</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://superposition71.github.io/categories/physics/</loc>
+    <loc>https://superposition71.github.io/categories/why-so-many-why/</loc>
     <lastmod>2020-12-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
