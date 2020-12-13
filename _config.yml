@@ -98,14 +98,14 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: apollo
+theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
     type: git
     repo: https://github.com/Superposition71/Superposition71.github.io.git
-    branch: main
+    branch: master
     message: hej
 
 
