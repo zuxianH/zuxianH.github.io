@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>My first blog and why?</title>
+    <link href="/2020/12/13/My%20first%20blog%20and%20why/"/>
+    <url>/2020/12/13/My%20first%20blog%20and%20why/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>why many why</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>physics</title>
     <link href="/2020/12/13/physics/"/>
     <url>/2020/12/13/physics/</url>
@@ -17,13 +42,25 @@
   
   
   <entry>
-    <title>Här är en test</title>
-    <link href="/2020/12/13/hej,halll%C3%A5/"/>
-    <url>/2020/12/13/hej,halll%C3%A5/</url>
+    <title>Why I chose physics, Especially theoretical physics?</title>
+    <link href="/2020/12/13/why%20just%20physics/"/>
+    <url>/2020/12/13/why%20just%20physics/</url>
     
-    <content type="html"><![CDATA[<p>Välkommen till min första blogg!!</p><h3 id="Hi-world"><a href="#Hi-world" class="headerlink" title="Hi world"></a>Hi world</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">print</span><span class="hljs-string">&#x27;hi world&#x27;</span><br>hi world :P<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[]]></content>
     
     
+    <categories>
+      
+      <category>physics</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>life</tag>
+      
+    </tags>
     
   </entry>
   

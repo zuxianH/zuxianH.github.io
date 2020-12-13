@@ -6,7 +6,7 @@
   <link href="https://superposition71.github.io/atom.xml" rel="self"/>
   
   <link href="https://superposition71.github.io/"/>
-  <updated>2020-12-13T18:37:28.784Z</updated>
+  <updated>2020-12-13T20:36:08.130Z</updated>
   <id>https://superposition71.github.io/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My first blog and why?</title>
+    <link href="https://superposition71.github.io/2020/12/13/My%20first%20blog%20and%20why/"/>
+    <id>https://superposition71.github.io/2020/12/13/My%20first%20blog%20and%20why/</id>
+    <published>2020-12-13T20:25:36.615Z</published>
+    <updated>2020-12-13T20:36:08.130Z</updated>
+    
+    
+    
+    
+    <category term="why many why" scheme="https://superposition71.github.io/categories/why-many-why/"/>
+    
+    
+    <category term="blog" scheme="https://superposition71.github.io/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>physics</title>
@@ -37,23 +54,19 @@
   </entry>
   
   <entry>
-    <title>Här är en test</title>
-    <link href="https://superposition71.github.io/2020/12/13/hej,halll%C3%A5/"/>
-    <id>https://superposition71.github.io/2020/12/13/hej,halll%C3%A5/</id>
+    <title>Why I chose physics, Especially theoretical physics?</title>
+    <link href="https://superposition71.github.io/2020/12/13/why%20just%20physics/"/>
+    <id>https://superposition71.github.io/2020/12/13/why%20just%20physics/</id>
     <published>2020-12-13T14:24:53.357Z</published>
-    <updated>2020-12-13T16:20:57.090Z</updated>
-    
-    <content type="html"><![CDATA[<p>Välkommen till min första blogg!!</p><h3 id="Hi-world"><a href="#Hi-world" class="headerlink" title="Hi world"></a>Hi world</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">print</span><span class="hljs-string">&#x27;hi world&#x27;</span><br>hi world :P<br></code></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Välkommen till min första blogg!!&lt;/p&gt;
-&lt;h3 id=&quot;Hi-world&quot;&gt;&lt;a href=&quot;#Hi-world&quot; class=&quot;headerlink&quot; title=&quot;Hi world&quot;&gt;&lt;/a&gt;Hi world&lt;/h3&gt;&lt;figure </summary>
-      
+    <updated>2020-12-13T20:36:12.371Z</updated>
     
     
     
+    
+    <category term="physics" scheme="https://superposition71.github.io/categories/physics/"/>
+    
+    
+    <category term="life" scheme="https://superposition71.github.io/tags/life/"/>
     
   </entry>
   
@@ -62,7 +75,7 @@
     <link href="https://superposition71.github.io/2020/12/13/hello-world/"/>
     <id>https://superposition71.github.io/2020/12/13/hello-world/</id>
     <published>2020-12-13T14:16:52.801Z</published>
-    <updated>2020-12-13T14:16:52.805Z</updated>
+    <updated>2020-12-13T20:36:09.715Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
