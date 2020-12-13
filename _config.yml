@@ -4,12 +4,12 @@
 
 # Site
 title: Zuxians blogg
-subtitle: ''
-description: ''
+subtitle: 
+description: 
 keywords: blogg physics 
 author: Zuxian He
 language: en
-timezone: 'SE'
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
