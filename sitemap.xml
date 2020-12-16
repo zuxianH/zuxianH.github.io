@@ -2,42 +2,154 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://superposition71.github.io/about/index.html</loc>
-    
-    <lastmod>2020-12-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://superposition71.github.io/2020/12/13/physics/</loc>
-    
-    <lastmod>2020-12-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://superposition71.github.io/2020/12/13/hej,halll%C3%A5/</loc>
-    
-    <lastmod>2020-12-13</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://superposition71.github.io/2020/12/13/hello-world/</loc>
     
-    <lastmod>2020-12-13</lastmod>
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/13/Coming%20to%20Sweden%20was%20a%20turning%20point%20in%20my%20life/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/15/What%20is%20meaning%20to%20be%20self-control/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/15/Who%20am%20I?%20where%20I%20come%20from?%20where%20I%20want%20to%20go?/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/13/My%20first%20blog%20and%20why/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/14/Experimental%20determination%20of%20the%20maximal%20lyapunov%20exponent%20of%20the%20manetic%20pendulum/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/about/index.html</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/14/What%20I%20expect%20to%20learn%20during%20university/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/13/why%20just%20physics/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/13/Endimentionell%20analys/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/2020/12/13/GitHub%20+%20Latex%20make%20more%20efficient%20for%20writing%20and%20collaboration/</loc>
+    
+    <lastmod>2020-12-15</lastmod>
     
   </url>
   
 
   <url>
     <loc>https://superposition71.github.io/</loc>
-    <lastmod>2020-12-13</lastmod>
+    <lastmod>2020-12-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://superposition71.github.io/tags/blog/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/tags/physics/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/tags/My-story/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://superposition71.github.io/categories/why-so-many-why/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/categories/Mathematics/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/categories/Camputer-things/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/categories/My-story/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/categories/physics/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://superposition71.github.io/categories/life/</loc>
+    <lastmod>2020-12-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
 </urlset>
