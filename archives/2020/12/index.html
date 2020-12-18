@@ -171,13 +171,19 @@
                 
 
 <div class="list-group">
-  <p class="h4">10 posts in total.</p>
+  <p class="h4">11 posts in total.</p>
   <hr>
   
   
     
       
       <p class="h5">2020</p>
+    
+    <a href="/2020/12/18/Funktionsteori/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">Funktionsteorin</span>
+      <time style="float: right;">12-18</time>
+    </a>
+  
     
     <a href="/2020/12/17/file/" class="list-group-item list-group-item-action">
       <span class="archive-post-title">Some amazing site</span>
@@ -232,14 +238,20 @@
       <time style="float: right;">12-16</time>
     </a>
   
-    
-    <a href="/2020/12/14/My%20first%20blog%20and%20why/" class="list-group-item list-group-item-action">
-      <span class="archive-post-title">From zero to 1, how to create your own blog</span>
-      <time style="float: right;">12-14</time>
-    </a>
-  
 </div>
 
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <span class="page-number current">1</span><a class="page-number" href="/archives/2020/12/page/2/">2</a><a class="extend next" rel="next" href="/archives/2020/12/page/2/"><i class="iconfont icon-arrowright"></i></a>
+    </span>
+  </nav>
+  
+  <script>
+    for (ele of document.getElementById("pagination").getElementsByTagName("a")) {
+      ele.href += '#board';
+    }
+  </script>
 
 
 

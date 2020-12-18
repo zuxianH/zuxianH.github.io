@@ -17,7 +17,7 @@
   <meta name="description" content="">
   <meta name="author" content="Zuxian He">
   <meta name="keywords" content="">
-  <title>Some amazing site - Zuxians Blog</title>
+  <title>Funktionsteorin - Zuxians Blog</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
 
@@ -162,7 +162,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="Some amazing site">
+            <span class="h2" id="subtitle" title="Funktionsteorin">
               
             </span>
 
@@ -172,8 +172,8 @@
   
     <span class="post-meta">
       <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-      <time datetime="2020-12-17 16:20" pubdate>
-        December 17, 2020 pm
+      <time datetime="2020-12-18 17:34" pubdate>
+        December 18, 2020 pm
       </time>
     </span>
   
@@ -184,7 +184,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      0 words
+      256 words
     </span>
   
 
@@ -194,7 +194,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      5
        minute
     </span>
   
@@ -232,14 +232,30 @@
         <div class="py-5" id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Some amazing site</h1>
+            <h1 style="display: none">Funktionsteorin</h1>
             
             <div class="markdown-body">
-              
+              <h3 id="Bakgrund"><a href="#Bakgrund" class="headerlink" title="Bakgrund"></a>Bakgrund</h3><p>Funktionsteorin så kallas även komplexa analys. Här är mina anteckningar från boken funktionsteorin av Frank Wikström. Det var en riktigt spännande bok som guida dig genom harmonisk analys och komplexa analys inom matematiken.</p>
+<h3 id="1-Komplexa-funktioner"><a href="#1-Komplexa-funktioner" class="headerlink" title="1. Komplexa funktioner"></a>1. Komplexa funktioner</h3><p>Innan vi går vidare till derivator skall vi sätta ett definetion om gränsvärde för komlexa funktion. gränsvärde för komplexa funktioner har ungefär exakt samma pricip som den reellla funktion.</p>
+<div class="note note-danger">
+            <p>Anta att $f$ är en komplexvärd funktion som är definera på någon omgivning av punkten $z = a$. Så gäller gränsvärde för komplexvärd funktion</p><p><center>$\lim_{z \to a}f(z) = L$</center><br>Om det finns till varje $\epsilon &gt; 0$ finns ett $\delta &gt; 0$ sådana att</p><p><center>$|f(z)-L| < \delta$</center><br>för alla z med 0 &lt; $|z-a|&lt;\delta$</p>
+          </div>
+<p>De vanöiga relltvärdes gränsvärde räknelagar gäller även sammma för komplexvärda funktioner. Alltså</p>
+<div class="note note-warning">
+            <p>Antar att $\lim<em>{z \to a}f(z) = L$ och $\lim</em>{z \to a}g(z) = M$ då $\lim_{z \to a}(f(z)+g(z)) = L+M$<br>Detta har motsvarande resonomang för substration, division och multipication.</p>
+          </div>
+<h3 id="2-Elementara-funktioner"><a href="#2-Elementara-funktioner" class="headerlink" title="2. Elementära funktioner"></a>2. Elementära funktioner</h3><h3 id="3-Komplex-integralkalkyl"><a href="#3-Komplex-integralkalkyl" class="headerlink" title="3. Komplex integralkalkyl"></a>3. Komplex integralkalkyl</h3><h3 id="4-Talfoljder-och-rekursionsekvationer"><a href="#4-Talfoljder-och-rekursionsekvationer" class="headerlink" title="4. Talföljder och rekursionsekvationer"></a>4. Talföljder och rekursionsekvationer</h3>
             </div>
             <hr>
             <div>
               <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/categories/mathematics/">mathematics</a>
+                    
+                  </div>
                 
                 
               </div>
@@ -251,18 +267,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2020/12/18/Funktionsteori/">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Funktionsteorin</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2020/12/16/What%20is%20meaning%20to%20be%20self-control/">
-                        <span class="hidden-mobile">What is the meaning of self-control?</span>
+                      <a href="/2020/12/17/file/">
+                        <span class="hidden-mobile">Some amazing site</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
@@ -423,6 +433,45 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-svg.js" ></script>
+
+  
 
 
 
