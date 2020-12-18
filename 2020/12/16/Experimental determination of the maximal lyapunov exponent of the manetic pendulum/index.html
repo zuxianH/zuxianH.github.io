@@ -157,7 +157,7 @@
 </nav>
 
     <div class="banner intro-2" id="background" parallax=true
-         style="background: url('/img/default.png') no-repeat center center;
+         style="background: url('/img/wallpaper2.jpg') no-repeat center center;
            background-size: cover;">
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
@@ -184,7 +184,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      121 words
+      187 words
     </span>
   
 
@@ -194,7 +194,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      2
+      3
        minute
     </span>
   
@@ -238,7 +238,7 @@
               <div class="note note-primary">
             <p><strong>Abstract:</strong></p><p>The magnetic pendulum has a simple structure but a complex chaotic behaviour. Since a system has a positive maximal lyapunov exponent is strong indicates that system is chaotic. The studies of magnetic pendulum have been mathematically and numerically understood. Unfortunately, it is still lack of experimental examination of the lyapunov exponent of magnetic pendulum due the extreme and sensitive requirement. In this project is studied about the maximal lyapunov of magnetic pendulum experimentally. The study is not extensive and specifics for the chaotic behavior of magnetic pendulum. However, the result are showed the magnetic pendulum has a positive maximal lyapunov exponent about 28 1/s with a given parameter. Which is strong indicates that magnetic pendulum has a chaotic behaviour.</p>
           </div>
-
+<script type="math/tex; mode=display">\ddot{x}+\frac{b}{m}\dot{x} + \frac{g}{L}x + \frac{1}{m}\sum_{i=1}^{n}\frac{k_i}{(\sqrt{(x_i-x)^2+(y_i-y)^2+h^2})^3}(x-x_i)=0\\</script><script type="math/tex; mode=display">\ddot{y}+\frac{b}{m}\dot{y} + \frac{g}{L}y + \frac{1}{m}\sum_{i=1}^{n}\frac{k_i}{({\sqrt{(x_i-x)^2+(y_i-y)^2+h^2}})^3}(y-y_i)=0</script>
             </div>
             <hr>
             <div>
@@ -433,6 +433,45 @@
 
 
 
+
+  
+
+  
+    <!-- MathJax -->
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        options: {
+          renderActions: {
+            findScript: [10, doc => {
+              document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+                const display = !!node.type.match(/; *mode=display/);
+                const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+                const text = document.createTextNode('');
+                node.parentNode.replaceChild(text, node);
+                math.start = { node: text, delim: '', n: 0 };
+                math.end = { node: text, delim: '', n: 0 };
+                doc.math.push(math);
+              });
+            }, '', false],
+            insertedScript: [200, () => {
+              document.querySelectorAll('mjx-container').forEach(node => {
+                let target = node.parentNode;
+                if (target.nodeName.toLowerCase() === 'li') {
+                  target.parentNode.classList.add('has-jax');
+                }
+              });
+            }, '', false]
+          }
+        }
+      };
+    </script>
+
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-svg.js" ></script>
+
+  
 
 
 
