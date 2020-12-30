@@ -196,7 +196,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      0 words
+      871 words
     </span>
   
 
@@ -206,7 +206,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      12
        minutes
     </span>
   
@@ -248,12 +248,36 @@
             
               <p class="note note-info">
                 
-                  This article was last updated: 12 days ago
+                  This article was last updated: a minute ago
                 
               </p>
             
             <div class="markdown-body">
-              
+              <p>之前一直有一个问题困扰着我，就是如何多人写LaTeX。 我咨询过一个我的朋友他告诉我说Git是一个解决方案。我曾经尝试过Git很多次但都失败了，主要还是因为毕竟难入门。直到大概几个星期前，我们小组要用LaTeX写一篇论文。这我又想起我朋友的方案（其实我不想花钱在overleaf上），尝试用Git协助多人编辑。由于刚开始的时候并不是很懂，如何操作等。这篇文章是我一些个人总结，以及避免一些无必要的弯路。现在我还并没有完全掌握Git，在学习中。。</p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>你需要在你电脑准备两样东西</p>
+<ul>
+<li>Git</li>
+<li>GitHub</li>
+</ul>
+<p style="text-align:center;font-size:1.5em;font-weight: bold;">
+Let's GO!!
+</p>
+
+<h2 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h2><h3 id="什么是Git，-Git的好处在哪里？"><a href="#什么是Git，-Git的好处在哪里？" class="headerlink" title="什么是Git， Git的好处在哪里？"></a>什么是Git， Git的好处在哪里？</h3><p>Git är ett system för versionshantering främst tänkt att användas för programkod. Kortfattat är Git ett verktyg för att samarbeta kring kod som gör det möjligt att hantera ändringar och historik.</p>
+<h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><p>对于很多新手来说安装Git并不是一件容易的事。在Linux上的话只需要在terminal执行一下命令即可。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ sudo apt-get install git<br></code></pre></td></tr></table></figure><br>Emm,好像也没那么难吧。</p>
+<h3 id="Have-fun-with-Git"><a href="#Have-fun-with-Git" class="headerlink" title="Have fun with Git"></a>Have fun with Git</h3><h4 id="1-Create-a-local-git-repository"><a href="#1-Create-a-local-git-repository" class="headerlink" title="1 Create a local git repository"></a>1 Create a local git repository</h4><p>第一件是你需要做的就是在一个文件夹中创建一个git repository。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init<br></code></pre></td></tr></table></figure><br>切记，那文件夹最好的空的文件夹。</p>
+<p>之后你可以用这个命令来查看你是否成功创建了一个git repository。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git status<br></code></pre></td></tr></table></figure><br>请记住这命令，因为在后面你可能常需要用到它。 这命令的功能也简单就是查看当前git 的状态。如果你输入这个命令的话你会看到<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs bash">On branch master <span class="hljs-comment">#你当前的位置</span><br><br>No commits yet <span class="hljs-comment">#你是否commit</span><br><br>nothing to commit (create/copy files and use <span class="hljs-string">&quot;git add&quot;</span> to track)<br><br></code></pre></td></tr></table></figure><br>之后我会逐步讲解什么是<code>branch</code>， <code>add</code> 还是 <code>commit</code>。</p>
+<p>Note: 在你建立一个git repository它会在你的文件夹中生成一个<code>.git</code>的文件夹。这文件夹一般是隐形的。在Linux你可以按<code>ctrl+h</code>来显示它。</p>
+<h4 id="2-create-a-new-file-to-the-repo"><a href="#2-create-a-new-file-to-the-repo" class="headerlink" title="2 create a new file to the repo"></a>2 create a new file to the repo</h4><p>在Git文档中可以你可以手动创建一个文件或者也可以<br><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cmake">touch <span class="hljs-keyword">test</span>.txt<br></code></pre></td></tr></table></figure><br>其实这里并没有任何特别的或者需要主要的地方。现在我们可以尝试用<code>git status</code>看看会发生什么。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs bash">On branch master<br><br>No commits yet<br><br>Untracked files:<br>  (use <span class="hljs-string">&quot;git add &lt;file&gt;...&quot;</span> to include <span class="hljs-keyword">in</span> what will be committed)<br>	test.text<br><br>nothing added to commit but untracked files present (use <span class="hljs-string">&quot;git add&quot;</span> to track)<br><br></code></pre></td></tr></table></figure>
+<p>你看到在<code>untracked files</code>多出了一个<code>test.text</code>。这就是git的精髓，同时也涉及到的<code>add</code> 和<code>commit</code> 的功能。下一章见。</p>
+<h4 id="3-Add-and-commit"><a href="#3-Add-and-commit" class="headerlink" title="3 Add and commit"></a>3 <em>Add</em> and <em>commit</em></h4><h4 id="4-the-twig-branch"><a href="#4-the-twig-branch" class="headerlink" title="4 the twig branch"></a>4 the twig <em>branch</em></h4><p>branch 和checkeout</p>
+<h4 id="5-Overwrtting-with-merge"><a href="#5-Overwrtting-with-merge" class="headerlink" title="5 Overwrtting with merge"></a>5 Overwrtting with <em>merge</em></h4><h4 id="5-进阶了解Git-（可跳过）"><a href="#5-进阶了解Git-（可跳过）" class="headerlink" title="5 进阶了解Git （可跳过）"></a>5 进阶了解Git （可跳过）</h4><h2 id="GitHub"><a href="#GitHub" class="headerlink" title="GitHub"></a>GitHub</h2><h3 id="创建账号"><a href="#创建账号" class="headerlink" title="创建账号"></a>创建账号</h3><h3 id="创建repository"><a href="#创建repository" class="headerlink" title="创建repository"></a>创建repository</h3><p>Tänk på att regler kring fusk och plagiat kan göra det nödvändigt att använda privata repositories för grupparbeten! Om du är osäker – fråga din lärare!</p>
+<h3 id="配合Git"><a href="#配合Git" class="headerlink" title="配合Git"></a>配合Git</h3><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init <span class="hljs-comment"># Create a new local repository</span><br>git status <span class="hljs-comment"># List the files you&#x27;ve changed and those you still need to add or commit</span><br>git remote add origin &lt;server&gt; <span class="hljs-comment"># Connect to a remote repository</span><br>git push origin &lt;branchname&gt; <span class="hljs-comment"># Push the branch to your remote repository</span><br>git pull <span class="hljs-comment"># Fetch and merge changes on the remote server to your working directory</span><br>git merge &lt;branchname&gt; <span class="hljs-comment"># To merge a different branch into your active branch</span><br><br>git add &lt;filename&gt; <span class="hljs-comment"># 	Add one or more files to staging (index)</span><br>git commit -m <span class="hljs-string">&quot;Commit message&quot;</span> 	<span class="hljs-comment"># Commit changes to head (but not yet to the remote repository)</span><br></code></pre></td></tr></table></figure>
+<p>For more and detalj information pleace click <a class="btn" href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html"  title="title" target="_blank">--> here <--</a></p>
+<h2 id="一起编辑LaTeX"><a href="#一起编辑LaTeX" class="headerlink" title="一起编辑LaTeX"></a>一起编辑LaTeX</h2><p>现在你已经准备好了！</p>
+<h2 id="最后说几句"><a href="#最后说几句" class="headerlink" title="最后说几句"></a>最后说几句</h2><p>其实Git强大在于它并不限制与tex 文档，</p>
+
             </div>
             <hr>
             <div>
@@ -262,10 +286,19 @@
                   <div class="post-meta mr-3">
                     <i class="iconfont icon-category"></i>
                     
-                      <a class="hover-with-bg" href="/categories/Camputer-things/">Camputer things</a>
+                      <a class="hover-with-bg" href="/categories/Camputer/">Camputer</a>
                     
                   </div>
                 
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/Git/">Git</a>
+                    
+                      <a class="hover-with-bg" href="/tags/LaTeX/">LaTeX</a>
+                    
+                  </div>
                 
               </div>
               
@@ -506,7 +539,6 @@
 
 <!-- 主题的启动项 保持在最底部 -->
 <script  src="/js/boot.js" ></script>
-
 
 
 </body>
