@@ -211,7 +211,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      1.3k words
+      1.4k words
     </span>
   
 
@@ -221,7 +221,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      26
+      28
        minutes
     </span>
   
@@ -263,7 +263,7 @@
             
               <p class="note note-info">
                 
-                  This article was last updated: a few seconds ago
+                  This article was last updated: 2 hours ago
                 
               </p>
             
@@ -286,7 +286,9 @@
 <h2 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h2><h3 id="What-is-Hexo-and-why-you-need-it"><a href="#What-is-Hexo-and-why-you-need-it" class="headerlink" title="What is Hexo and why you need it?"></a>What is Hexo and why you need it?</h3><p>Basically Hexo is a blog framework that allows you to quickly build a blog. In my case I chose Hexo because it is fast, concise and efficient. Hexo is written by Node.js and it also supports Markdown and many other packages. Hence you actually don’t need that much programming och computer knowledge like HTML、css、JavaScript etc. The only thing you should learn or feel familiar with is Markdown. Of course if you want your blog to look prefekt and beautiful that is strong recommend that you master the basics programming language like HTML.</p>
 <h3 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h3><p>This installation is based on operating system Linux distro Ubuntu. The first thing you have to do is install Node.js. You can do it by using following command in terminal:</p>
 <p>cURL:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ curl https://raw.github.com/creationix/nvm/v0.33.11/install.sh | sh<br></code></pre></td></tr></table></figure><br>Wget:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ wget -qO- https://raw.github.com/creationix/nvm/v0.33.11/install.sh | sh<br></code></pre></td></tr></table></figure><br>After the installation is complete, restart the terminal and execute the following commands to install Node.js.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ nvm install stable<br></code></pre></td></tr></table></figure><br>When it is finish then you can use npm to install Hexo.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ npm install -g hexo-cli<br></code></pre></td></tr></table></figure></p>
-<h3 id="Configure-Hexo"><a href="#Configure-Hexo" class="headerlink" title="Configure Hexo"></a>Configure Hexo</h3><p>When Hexo is finished installed, then you are prepared to build your own static website/blogg.<br>First create a empty folder:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">mkdir &lt;your_blog_name&gt;<br></code></pre></td></tr></table></figure><br>then install Hexo into the folder<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init &lt;your_blog_name&gt;<br></code></pre></td></tr></table></figure><br>Yeee, your website is created!!! Easy, right? Let move on!!!</p>
+<h3 id="First-Blog-and-configuration"><a href="#First-Blog-and-configuration" class="headerlink" title="First Blog and configuration"></a>First Blog and configuration</h3><p>When Hexo is finished installed, then you are prepared to build your own static website/blogg.<br>First create a empty folder:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">mkdir &lt;your_blog_name&gt;<br></code></pre></td></tr></table></figure><br>then install Hexo into the folder<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo init &lt;your_blog_name&gt;<br></code></pre></td></tr></table></figure><br>If you write this command at terminal then you will see your blog.<br><figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs nginx"><span class="hljs-attribute">hexo</span> server <span class="hljs-comment"># Or just &quot;hexo s&quot;</span><br></code></pre></td></tr></table></figure><br>What this command do it generates a lokal server for your blog. Usually this is your lokal server <a target="_blank" rel="noopener" href="http://localhost:4000">http://localhost:4000</a>, if you click on it you will see</p>
+<p><img src="img/hexoland.png" srcset="/img/loading.gif" alt=""></p>
+<p>Yeee, your website is created!!! Easy, right? Let move on!!!</p>
 <hr>
 <p>Attention: you maybe have to execute this command before you execute hexo.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">source</span> ~/.nvm/nvm.sh<br></code></pre></td></tr></table></figure></p>
 <hr>
@@ -295,9 +297,9 @@
 <figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs groovy"><span class="hljs-attr">title:</span> Zuxians Blog<br><span class="hljs-attr">subtitle:</span> <span class="hljs-string">&#x27;&#x27;</span><br><span class="hljs-attr">description:</span> <span class="hljs-string">&#x27;&#x27;</span><br><span class="hljs-attr">keywords:</span> physics, life , computer<br><span class="hljs-attr">author:</span> Zuxian He<br><span class="hljs-attr">language:</span> en<br><span class="hljs-attr">timezone:</span> Europe/Stockholm<br></code></pre></td></tr></table></figure>
 <p>Sometimes you may need to change <code>_config.yml</code> depending on what plugin you want to add to your blog. Therefore it is best to choose some easy theme from the beginning.</p>
 <h3 id="Deploy-Hexo-at-GitHub"><a href="#Deploy-Hexo-at-GitHub" class="headerlink" title="Deploy Hexo at GitHub"></a>Deploy Hexo at GitHub</h3><p>Above I showed you how to install hexo and create a website. Now you may want to publish it. To do it you have to deploy to GitHub first and install the deployment plugin. To install he deployment plugin you can do with following command:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ npm install hexo-deployer-git --save<br>$ npm install hexo-server --save<br></code></pre></td></tr></table></figure><br>If you never used GitHub and git before then you must configure git. Like:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ git config --global user.name <span class="hljs-string">&quot;Your_user_name&quot;</span><br>$ git config --global user.email <span class="hljs-string">&quot;Your_email@example.com&quot;</span><br></code></pre></td></tr></table></figure></p>
-<p>Then you go back till<code>_config.yml</code> and you will find <code>deploy</code> below the document. Then filli<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">deploy:<br>  <span class="hljs-built_in">type</span>: git<br>  repo: &lt;repository url&gt;<br>  branch: master (main or master it depends)<br>  message:&lt;<span class="hljs-keyword">if</span> you want&gt;<br></code></pre></td></tr></table></figure><br>When you are finish, then in the root directory of the local Hexo site, execute the following commands to deploy to GitHub:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">source</span> ~/.nvm/nvm.sh (maybe)<br>$ hexo clean &amp;&amp; hexo d -g<br></code></pre></td></tr></table></figure></p>
+<p>Then you go back till<code>_config.yml</code> and you will find <code>deploy</code> below the document. Then filli<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash">deploy:<br>  <span class="hljs-built_in">type</span>: git<br>  repo: &lt;repository url&gt;<br>  branch: master (main or master it depends)<br>  message:&lt;<span class="hljs-keyword">if</span> you want&gt;<br></code></pre></td></tr></table></figure><br>When you are finish, then in the root directory of the local Hexo site, execute the following commands to deploy to GitHub:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">source</span> ~/.nvm/nvm.sh (maybe)<br>$ hexo clean &amp;&amp; hexo d -g<br></code></pre></td></tr></table></figure><br>For each time you publish your blog you can use this easy command<br><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs elixir"><span class="hljs-variable">$ </span>hexo d -g<br></code></pre></td></tr></table></figure><br>It stands for hexo deploy and generate.</p>
 <p>Tadda, looks how easy it is. Now you publish your website successfully. There are few more things that I want to show you, first you may notice your website does not look beautiful. Hence the next step is how to change the theme so your blog looks more elegant. Second is about the domain name of your website. A great domain name makes more people remember your site and also gives your more confidence.</p>
-<h3 id="Install-theme"><a href="#Install-theme" class="headerlink" title="Install theme"></a>Install theme</h3><p>I my case I use theme <a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/en/">fluid</a>. This is a Material Design style theme. In this <a target="_blank" rel="noopener" href="https://hexo.io/themes/">link</a> you can find all themes for hexo, if you do not like fluid.<br><img src="/img/123favicon.png" srcset="/img/loading.gif" alt=""><br><strong>Some functionality of fluid</strong></p>
+<h3 id="Install-theme"><a href="#Install-theme" class="headerlink" title="Install theme"></a>Install theme</h3><p>I my case I use theme <a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/en/">fluid</a>. This is a Material Design style theme. In this <a target="_blank" rel="noopener" href="https://hexo.io/themes/">link</a> you can find all themes for hexo, in case you do not like fluid.<br><img src="/img/123favicon.png" srcset="/img/loading.gif" alt=""><br><strong>Some functionality of fluid</strong></p>
 <ul>
 <li>Image lazy loading</li>
 <li>Custom code highlighting scheme</li>
@@ -341,16 +343,16 @@
                 
               </div>
               
-                <p class="note note-warning">All articles in this blog, except for special statements, adopt the <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow noopener noopener">CC BY-SA 4.0 protocol</a>, Please indicate the source!</p>
+                <p class="note note-warning"><a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" srcset="/img/loading.gif" /></a><br />This work is licensed under a <a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
               
               
                 <div class="post-prevnext row">
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/endimentionell-analys.html">
+                      <a href="/github-latex-make-more-efficient-for-writing-and-collaboration.html">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Endimentionell analys</span>
+                        <span class="hidden-mobile">GitHub + LaTeX make more efficient for writing and collaboration</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
@@ -376,7 +378,7 @@
           el: "#vcomments",
           app_id: "1Hsf6v1sDRevivHKVz6mHn2F-MdYXbMMI",
           app_key: "qnpd0aiiwaXs0EdN9vMM1OqW",
-          placeholder: "Hello! Welcome to my blog. HejHej!!",
+          placeholder: "It is a kind of fate that we meet here. Leave your footprints if you want. Otherwise have a nice and beautiful day!",
           path: window.location.pathname,
           avatar: "retro",
           meta: ["nick","mail","link"],
@@ -452,7 +454,7 @@
 
   <footer class="text-center mt-5 py-3">
   <div class="footer-content">
-     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+     <p>© 2020 – 2021 <i class="fa fa-heart"><i class="iconfont icon-love"></i></i> Zuxian</p> <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
   </div>
   
 
