@@ -211,7 +211,7 @@
     
     <span class="post-meta mr-2">
       <i class="iconfont icon-chart"></i>
-      0 words
+      652 words
     </span>
   
 
@@ -221,7 +221,7 @@
       <i class="iconfont icon-clock-fill"></i>
       
       
-      1
+      13
        minutes
     </span>
   
@@ -268,7 +268,96 @@
               </p>
             
             <div class="markdown-body">
-              
+              <p><img src="/img/conway.png" srcset="/img/loading.gif" alt=""></p>
+<p>Conway Game of Life, a game about life. It was first proposed by the British mathematician John Horton Conway in 1970 as a cellular automaton. The so-called cellular automata can also be understood as a zero-player game. It is not like the “normal” game, which it does not requires too much operation. When we enter a certain initial value, the Conway Game of Life will run in accordance with the established rules and will not accept any parameters until the end of the game (unfortunately, you cannot win in the Conway Game of Life). When the game starts to run, we only need to observe how this life works, just like when we were child and we were quietly watching ants on the steps.</p>
+<p>In Conway’s Game of Life, everything has a meaning, because it has the Turing completeness. In other words, any problems that may be solved with computers can be solved with Conway’s Game of Life. This was first proved by Bill Gosper in 1970. Although it rarely appears in our lives, they are equally significant. In Conway there is a game of life, we can also explore the real situation of life closer.</p>
+<h2 id="Rules-of-life"><a href="#Rules-of-life" class="headerlink" title="Rules of life"></a>Rules of life</h2><p>In this world live <em>life</em>, in a two-dimensional rectangular world. life has only two state, they can only be live (yellow) or dead (gray). The life and death of a <em>life</em> at the next moment depends on the number of <em>lifes</em> alive or dead in the eight adjacent squares.</p>
+<ol>
+<li><strong>Life is afraid of loneliness</strong><br>If there are less than two lives around a life, it will die at the end of the round<br>&emsp;&emsp;&emsp;<img src="/img/1.1.png" srcset="/img/loading.gif" alt=""><img src="/img/redo.svg" srcset="/img/loading.gif" alt=""><img src="/img/1.2.png" srcset="/img/loading.gif" alt=""></li>
+<li><strong>Life hates crowding</strong><br>If there are more than three lives around a life, it will also die at the end of the round<br>&emsp;&emsp;&emsp;<img src="/img/5.1.png" srcset="/img/loading.gif" alt=""><img src="/img/redo.svg" srcset="/img/loading.gif" alt=""><img src="/img/5.2.png" srcset="/img/loading.gif" alt=""></li>
+<li><strong>Life can reproduce</strong><br>If there are three lives around the dead grid, it gains life at the end of the round<br>&emsp;&emsp;&emsp;<img src="/img/3.1.png" srcset="/img/loading.gif" alt=""><img src="/img/redo.svg" srcset="/img/loading.gif" alt=""><img src="/img/3.2.png" srcset="/img/loading.gif" alt=""></li>
+<li><strong>Life like <em>lagom</em></strong><br>If there are 2 or 3 lives around a life, it will stay the same at the end of the round<br>&emsp;&emsp;&emsp;<img src="/img/2.1.png" srcset="/img/loading.gif" alt=""><img src="/img/redo.svg" srcset="/img/loading.gif" alt=""><img src="/img/2.2.png" srcset="/img/loading.gif" alt=""></li>
+</ol>
+<p>It is not difficult to find that the rules of Conway’s Game of Life are as familiar as the rules of our lives in this world.</p>
+<h2 id="To-know-life"><a href="#To-know-life" class="headerlink" title="To know life"></a>To know life</h2><p>There are different states of life</p>
+<h3 id="Still-lifes"><a href="#Still-lifes" class="headerlink" title="Still lifes"></a>Still lifes</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Block</th>
+<th>Beehive</th>
+<th>Loaf</th>
+<th>Boat</th>
+<th>Tub</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/img/lifeblock.png" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/beehive.svg.png" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/98px-Game_of_life_loaf.svg.png" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/82px-Game_of_life_boat.svg.png" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/Game_of_life_flower.svg.png" srcset="/img/loading.gif" alt=""></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="pseudo-still-life"><a href="#pseudo-still-life" class="headerlink" title="pseudo still life"></a>pseudo still life</h4><h4 id="strict-still-life"><a href="#strict-still-life" class="headerlink" title="strict still life"></a>strict still life</h4><h3 id="Oscillators"><a href="#Oscillators" class="headerlink" title="Oscillators"></a>Oscillators</h3><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Beacon (period 2)</th>
+<th>star (period 3)</th>
+<th>pinwheel （period 4）</th>
+<th>pentoad （period 5)</th>
+<th>Kok’s galaxy  ( period 8)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/img/Game_of_life_beacon.gif" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/JdlV_osc_3.169.gif" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/JdlV_osc_3.144bis.gif" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/JdlV_osc_5.156.gif" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/Oscilador8periodos.gif" srcset="/img/loading.gif" alt=""></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Spaceships"><a href="#Spaceships" class="headerlink" title="Spaceships"></a>Spaceships</h3><p>Spaceships are an interesting state in Conway’s Game of Life.</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>Glider speed c/4</th>
+<th>Lightweight spaceship c/2</th>
+<th>David Eppstein 2c/7</th>
+<th>119P4H1V0 c/4</th>
+<th>Spaghetti monster 3c/7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/img/Game_of_life_animated_glider.gif" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/Lwss.gif" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/Weekender_small.gif" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/119p4h1v0.gif" srcset="/img/loading.gif" alt=""></td>
+<td><img src="/img/Spaghettimonster.gif" srcset="/img/loading.gif" alt=""></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="Explore-more-life"><a href="#Explore-more-life" class="headerlink" title="Explore more life"></a>Explore more life</h3><h2 id="The-civilization-of-life"><a href="#The-civilization-of-life" class="headerlink" title="The civilization of life"></a>The civilization of life</h2><h2 id="Can-life-reproduce-indefinitely"><a href="#Can-life-reproduce-indefinitely" class="headerlink" title="Can life reproduce indefinitely?"></a>Can life reproduce indefinitely?</h2><p>From this point of view, it seems that a finite life cannot produce an infinite number of lives. This is also a conjecture that Conway started with this game:</p>
+<blockquote>
+<p>Conway originally conjectured that no pattern can grow indefinitely—i.e. that for any initial configuration with a finite number of living cells, the population cannot grow beyond some finite upper limit</p>
+</blockquote>
+<p>But this problem was quickly resolved. The answer to this answer is “Yes, life can reproduce indefinitely”.<br> <img src="/img/610px-Game_of_life_glider_gun.svg.png" srcset="/img/loading.gif" alt="Gosper glider gun, the first gun in Game of life"></p>
+<p><img src="/img/Gospers_glider_gun.gif" srcset="/img/loading.gif" alt=""></p>
+<h2 id="Life-and-chaos"><a href="#Life-and-chaos" class="headerlink" title="Life and chaos"></a>Life and chaos</h2><h2 id="Life-in-life"><a href="#Life-in-life" class="headerlink" title="Life in life"></a>Life in life</h2><iframe width="560" height="315" src="https://www.youtube.com/embed/xP5-iIeKXE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Create a game of life in the game of life, and so on, then you can construct the game of life in the game of life…This reminds me of the most basic unit of this world that constitutes our world, anyway let we call it a <em>string</em>. The world of strings is equivalent to the most basic Conway game. Strings vibrating at different frequencies produce different elementary particles. This is equivalent to creating a game of life with the game of life. After that, different elementary particles have constructed our world today.</p>
+<p>This result is not surprising, after all, the rules of the game of life come from nature. Life is so amazing.</p>
+
             </div>
             <hr>
             <div>
