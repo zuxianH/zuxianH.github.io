@@ -187,7 +187,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="“Knowing others is wisdom, knowing yourself is enlightenment.” -Lao Tzu   ">
+            <span class="h2" id="subtitle" title="“Knowing others is wisdom, knowing yourself is enlightenment.” -Lao Tzu">
               
             </span>
 
@@ -218,8 +218,8 @@
 
 <div class="text-center">
   <div class="about-info">
-    <div class="about-name">The soliloquist</div>
-    <div class="about-intro">A super simple person who want to be a theoretical physicist</div>
+    <div class="about-name">Zuxian.H</div>
+    <div class="about-intro">Stay hungry, stay foolish.</div>
     <div class="about-icons">
       
         
@@ -261,12 +261,73 @@
 
 <article class="mt-5 markdown-body">
   <p>有个不可知的世界在我们之外存在着。它的存在并不取决于我们人类的主观意愿。尽管它是一个高深而永恒的迷。值得庆幸的是我们人类至少可以部分的观察和思维接触及它。这世界深具魅力，犹如争取自由得到解放一样吸引我凝视深思。</p>
-<p><center></p>
-<h2 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h2><p>A first year physics student at Uppsala university. I revel in to be alone, living quietly and enjoying this tranquil world.</p>
-<h2 id="About-My-interest"><a href="#About-My-interest" class="headerlink" title="About My interest"></a>About My interest</h2><p>Some so-called hobbies are nothing more than playing around computer stuff, have aerobic exercise and occasionally playing violin. Sometimes talking to myself and thinking about life, that’s it.</p>
-<h2 id="About-this-blog"><a href="#About-this-blog" class="headerlink" title="About this blog"></a>About this blog</h2><p>The main resoneson that I start my own blog is through this blog I just want to know my-self better. Sometimes I don’t know who I am, where I come from, where I should go. Hence I hope through this blog I can have a chat with the deep inside me, and also me from the future and the past.</p>
+<h2 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h2><ul>
+<li>First year physics student at Uppsala university.</li>
+<li>A super simple person who want to be a theoretical physicist</li>
+<li>I revel in to be alone, living quietly and enjoying this tranquil world.</li>
+</ul>
+<p><strong>My Special skills</strong></p>
+<script src="https://cdn.jsdelivr.net/npm/echarts@4.8.0/dist/echarts.min.js"></script>
+<!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+<div id="main" style="width: 500px;height:300px;"></div>
+<script type="text/javascript">
+  // 基于准备好的dom，初始化echarts实例
+  var myChart = echarts.init(document.getElementById('main'));
+  // 指定图表的配置项和数据
+  var option = {dataset: {
+        source: [
+            ['score', '%', 'skills'],
+            [12, 12, 'Linux'],
+            [10, 10, 'Python'],
+            [0, 0, 'String theory'],
+            [3, 3, 'statistical physics'],
+            [10, 10, 'Optic and Waves'],
+            [5, 5, 'Quantum mechanics'],
+            [10, 10, 'Electrodynamics'],
+            [30, 30, 'Classical mechanics']
+        ]
+    },
+    grid: {containLabel: true},
+    xAxis: {name: '%'},
+    yAxis: {type: 'category'},
+    visualMap: {
+        orient: 'horizontal',
+        left: 'center',
+        min: 0,
+        max: 100,
+        text: ['High Score', 'Low Score'],
+        // Map the score column to color
+        dimension: 0,
+        inRange: {
+            color: ['#65B581', '#FFCE34', '#FD665F']
+        }
+    },
+    series: [
+        {
+            type: 'bar',
+            encode: {
+                // Map the "amount" column to X axis.
+                x: '%',
+                // Map the "product" column to Y axis
+                y: 'skills'
+            }
+        }
+    ]
+};
+  // 使用刚指定的配置项和数据显示图表。
+  myChart.setOption(option);
+  // 刷新调整
+  window.onresize = function () {
+    myChart.resize();
+  }
+</script>
+
+
+<h2 id="About-My-interest"><a href="#About-My-interest" class="headerlink" title="About My interest"></a>About My interest</h2><p>Some so-called hobbies are nothing more than playing around computer, have aerobic exercise and occasionally playing violin. Sometimes talking to myself and thinking about life, that’s it.</p>
+<h2 id="About-this-blog"><a href="#About-this-blog" class="headerlink" title="About this blog"></a>About this blog</h2><p>The main resoneson that I start my own blog is through this blog I just want to know my-self better. Sometimes I don’t know who I am, where I come from, where I should go. Hence I hope through this blog I can have a chat with the deep in my heart, and also me from the future and the past.</p>
 <p>Life is short, I want to share some my idea about life, universe, physics and everything I know. Although this is insignificant for the the world but that’s who I am.</p>
-<h2 id="About-the-universe"><a href="#About-the-universe" class="headerlink" title="About the universe"></a>About the universe</h2><p>WHO CARE!!!<br><img src="/img/bazinga.jpg" srcset="/img/loading.gif" alt=""></p>
+<h2 id="About-the-universe"><a href="#About-the-universe" class="headerlink" title="About the universe"></a>About the universe</h2><p>I don’t CARE!!!</p>
+<p><img src="/img/bazinga.jpg" srcset="/img/loading.gif" alt=""></p>
 <center>
 
 </article>
