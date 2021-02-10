@@ -4,6 +4,31 @@
   
   
   <entry>
+    <title>Stay focused, stay in flow</title>
+    <link href="/stay-focused-stay-in-flow.html"/>
+    <url>/stay-focused-stay-in-flow.html</url>
+    
+    <content type="html"><![CDATA[<p><img src="/img/BLOG-JULY-FEATURED-SUNNIER_SUMMER-FINAL-512x1440.jpg" alt="source: https://www.headspace.com/blog/2019/06/28/summer-meditations/"></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Experience summary</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Life</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>The Theoretical Minimum</title>
     <link href="/the-theoretical-minimum.html"/>
     <url>/the-theoretical-minimum.html</url>
@@ -228,31 +253,6 @@
       <tag>Life</tag>
       
       <tag>New year</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>Stay focused, stay in flow</title>
-    <link href="/stay-focused-stay-in-flow.html"/>
-    <url>/stay-focused-stay-in-flow.html</url>
-    
-    <content type="html"><![CDATA[<!--<script type="text/javascript">function password() {var testV = 1;var pass1 = prompt('Please enter password','');while (testV < 3) {if (!pass1)history.go(-1);if (pass1 == "123") {//初始密码123alert('Password is correct');break;}testV+=1;var pass1 =prompt('Wrong password, please re-enter:');}if (pass1!="password" & testV ==3)history.go(-1);return " ";}document.write(password());</script><!--下面添加你要显示的内容或者代码--><script src="https://cdn.jsdelivr.net/npm/echarts@4.8.0/dist/echarts.min.js"></script><script src="https://cdn.jsdelivr.net/npm/echarts-gl@1.1.1/dist/echarts-gl.min.js"></script><p><div id="test2" style="width:100%;height:500px;"></div></p><script type="text/javascript"src="/js/echarts.min.js"></script><script type="text/javascript"src="/js/jquery.js"></script><script type="text/javascript">var  myChart2 = echarts.init(document.getElementById("test2"));//div元素节点的对象option2 = {    title: {        text: '基础雷达图'    },    tooltip: {},    legend: {        data: ['预算分配（Allocated Budget）', '实际开销（Actual Spending）']    },    radar: {        // shape: 'circle',        name: {            textStyle: {                color: '#fff',                backgroundColor: '#999',                borderRadius: 3,                padding: [3, 5]            }        },        indicator: [            { name: '销售（sales）', max: 6500},            { name: '管理（Administration）', max: 16000},            { name: '信息技术（Information Techology）', max: 30000},            { name: '客服（Customer Support）', max: 38000},            { name: '研发（Development）', max: 52000},            { name: '市场（Marketing）', max: 25000}        ]    },    series: [{        name: '预算 vs 开销（Budget vs spending）',        type: 'radar',        // areaStyle: {normal: {}},        data: [            {                value: [4300, 10000, 28000, 35000, 50000, 19000],                name: '预算分配（Allocated Budget）'            },            {                value: [5000, 14000, 28000, 31000, 42000, 21000],                name: '实际开销（Actual Spending）'            }        ]    }]};myChart2.setOption(option2);window.οnresize=function(){      myChart2.resize(); }</script><p><div id="test3" style="width:100%;height:500px;"></div></p><script type="text/javascript"src="/js/echarts.min.js"></script><script type="text/javascript"src="/js/jquery.js"></script><script type="text/javascript">var  myChart3 = echarts.init(document.getElementById("test3"));//div元素节点的对象option3 = {    xAxis: {        type: 'category',        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']    },    yAxis: {        type: 'value'    },    series: [{        data: [120, 200, 150, 80, 70, 110, 130],        type: 'bar'    }]};myChart3.setOption(option3);window.οnresize=function(){      myChart3.resize(); }</script>]]></content>
-    
-    
-    <categories>
-      
-      <category>Experience summary</category>
-      
-    </categories>
-    
-    
-    <tags>
-      
-      <tag>Life</tag>
       
     </tags>
     
